@@ -6751,7 +6751,7 @@ body.menu-open .mobile-burger__line {
 /*-----------Variables-----------*/
 /*-----------Variables-----------*/
 /*---------Media---------*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .mobile-burger {
     display: inline-block; }
   .header__nav {
@@ -6796,7 +6796,9 @@ body.menu-open .mobile-burger__line {
     margin-top: 0;
     height: 100%; }
   .header.fixed .header__inside {
-    padding: 7px 0; }
+    padding: 7px 0; } }
+
+@media (max-width: 768px) {
   .main-wrapper h1 {
     font-size: 26px; }
   .blog-item__caption h3 {
