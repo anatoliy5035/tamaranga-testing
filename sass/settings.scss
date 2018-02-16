@@ -1,0 +1,35 @@
+/*-----------Variables-----------*/
+$primary-color: #212529;
+$hover-color: #49606b;
+$link-color: #333333;
+$error-color: #fa5d5d;
+/*-----------Variables-----------*/
+
+
+@mixin font-light {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@mixin font-normal {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+@mixin font-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin font-size($fontSize, $lineHeight) {
+    font-size: #{$fontSize/16}rem;
+    line-height: $lineHeight/$fontSize;
+}
+
+@mixin clearfix() {
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+}

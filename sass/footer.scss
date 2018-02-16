@@ -1,0 +1,28 @@
+@import 'settings';
+
+.footer-wrapper {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer__nav {
+    display: inline-block;
+    float: right;
+    margin-right: -16px;
+    ul {
+        margin-bottom: 0;
+    }
+    li {
+        display: inline-block;
+        vertical-align: middle;
+        a {
+            color: $primary-color;
+            padding: 16px;
+            display: inline-block;
+        }
+    }
+}
+
+.footer__copy {
+    margin-top: 20px;
+}
